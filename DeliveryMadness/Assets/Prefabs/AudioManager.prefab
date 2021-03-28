@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5088836409747246744
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5088836409747246742}
+  - component: {fileID: 5088836409747246743}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: AudioManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5088836409747246742
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5088836409747246744}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.39999998, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5088836409747246743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5088836409747246744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eec098b4efbc974a873ec32022319e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  source: {fileID: 0}
+  sfxActivated: 1
+  SFXList:
+  - name: coinSFX
+    clip: {fileID: 8300000, guid: fe66d11a05ff9f64eb9ec7492a885f5c, type: 3}
+    volume: 0.5
+  - name: whoosh1
+    clip: {fileID: 8300000, guid: 7a4f7e1c567443f43bbf0fc159e452b9, type: 3}
+    volume: 0.5
+  - name: whoosh2
+    clip: {fileID: 8300000, guid: d73282aa50559374987f21d92fad51ef, type: 3}
+    volume: 0.5
+  - name: glassBreak1
+    clip: {fileID: 8300000, guid: 12c42fb65c7bec145abf7c4989b94c67, type: 3}
+    volume: 0.2
+  - name: glassBreak2
+    clip: {fileID: 8300000, guid: 31bdb7117c4f29d4dbbb430add789c8b, type: 3}
+    volume: 0.2
+  - name: glassBreak3
+    clip: {fileID: 8300000, guid: c4645d2aa87aaf540991b720630906bf, type: 3}
+    volume: 0.2
+  - name: thud
+    clip: {fileID: 8300000, guid: e46b2cb9614c51d49956347a35cb26fa, type: 3}
+    volume: 0.5
+  - name: winJingle
+    clip: {fileID: 8300000, guid: b9e82b1eb72644148aaa0843d0686804, type: 3}
+    volume: 0.4
+  - name: bicycleFalling
+    clip: {fileID: 8300000, guid: 1f1444bfb31e30b4bbfe7cf5c0aa5fb5, type: 3}
+    volume: 0.5
+  - name: mailBoxClose
+    clip: {fileID: 8300000, guid: 047989e57d5ad3f46b8ff5bbc4eac629, type: 3}
+    volume: 0.5
+  - name: pain1
+    clip: {fileID: 8300000, guid: a8b95b939ca7f4341a1c89eb5af3cf34, type: 3}
+    volume: 0.7
+  - name: pain2
+    clip: {fileID: 8300000, guid: bda2fc2e7927d2b44b9dc8faafab8342, type: 3}
+    volume: 0.7
+  - name: scoreSound
+    clip: {fileID: 8300000, guid: ff8239ff82bb6704a88d2a4e1bd217dd, type: 3}
+    volume: 0.9
+  - name: pain3
+    clip: {fileID: 8300000, guid: ce785918e1112fe47812b5274b5bbc83, type: 3}
+    volume: 0.7
